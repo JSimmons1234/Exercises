@@ -31,4 +31,30 @@ object Util {
     array.mkString("")
   }
 
+  def add(int1: Int, int2: Int): Int = {
+    int1 + int2
+  }
+
+  def addIsTrue(int1: Int, int2: Int, boolean: Boolean): Int = {
+    if (boolean == true) int1 + int2
+    else int1 * int2
+  }
+
+  def addUltimate(int1: Int, int2: Int, boolean: Boolean): Int = {
+
+    if (int1 != 0 && int2 != 0) {
+      if (boolean == true) int1 + int2
+      else int1 * int2
+    } else if (int1 == 0 & int2 == 0) {
+      int1
+    } else {
+      if (int1 != 0) {
+        int1
+      } else {
+        int2
+      }
+    }
+  }
+
+  def iterate
 }

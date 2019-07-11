@@ -25,6 +25,11 @@ object Run {
     param1("Hello",3)
 
     println(param2("Ha","llo",'a','e'))
+    println((add(1,2)))
+    println((addIsTrue(1,2, false)))
+    println((addUltimate(4,0, false)))
+
+
   }
 
 }
