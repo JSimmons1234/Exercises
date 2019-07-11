@@ -8,8 +8,7 @@ object Util {
 
   def param(param: String): String = param
 
-  def race(race: Any): Any = {
-    race
+  def race(race: Any): Any = {race
   }
 
   def param1(param1: String, params: Int): Unit = {
