@@ -1,0 +1,1 @@
+//addSbtPlugin("com.artima.supersafe" % "sbtplugin" % "2.12.8")
